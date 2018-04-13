@@ -1,20 +1,29 @@
 * {
-  border: 1px solid red;
+  /* outline: 1px solid red; */
 }
-
+/*
+logo font-family: 'Yellowtail', cursive;
+title font-family: 'Oswald', sans-serif;
+recipe font-family: 'Patrick Hand', cursive;
+*/
 body {
-  width: 960px;
+  width: 760px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
+header {
+  border-bottom: 10px solid #999;
+}
 .header-left {
   display: inline-block;
+  margin-bottom: 30px;
 }
 .header-left img {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 50px;
   float: left;
 }
 
@@ -24,14 +33,17 @@ body {
 
 .header-left-text p:first-child {
   font-size: 200%;
+  font-family: 'Yellowtail', cursive;
 }
 .header-left-text p:last-child {
   font-size: 100%;
+  font-family: 'Abel', sans-serif;
 }
 
 .header-right {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
+  margin-top: 20px;
 }
 .header-right ul {
   list-style: none;
@@ -41,26 +53,43 @@ body {
   display: inline;
 }
 
-.h2-left {
-  display: inline-block;
+.h3-left {
+  /* display: inline-block; */
   float: left;
+  margin-bottom: 35px;
 }
 
-.h2-right {
-  display: inline-block;
+.h3-right {
+  /* display: inline-block; */
   float: right;
+  margin-left: 8px;
 }
-.h2-right img {
-  height: 20px;
-  width: 20px;
+.h3-right img {
+  height: 12px;
+  width: 12px;
+  /* margin-right: 8px; */
 }
 
 article img {
   width: 100%;
 }
 
+article h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin-top: 70px;
+}
+article h3 {
+  font-family: 'Abel', sans-serif;
+  margin-top: 10px;
+}
 article p {
   text-indent: 2em;
+  font-family: 'Arapey', serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 110%;
+  line-height: 150%;
 }
 
 div.recipe-card {
@@ -81,21 +110,57 @@ table {
   border-collapse: collapse;
 }
 
+div#filler {
+  border-bottom: 10px solid #999;
+  margin-top: 50px; 
+}
+.author-quote {
+  margin-top: 30px;
+  display:inline-block;
+  width: 70%;
+  /* border-top: 10px solid #444; */
+}
 .author-quote img {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
+  /* display: inline-block; */
+  height: 125px;
+  width: 125px;
   float: left;
+  margin-right: 10px;
 }
-.author-quote h2 {
-  display: inline-block;
-  clear: left;
+.author-quote-text {
+  /* display: inline-block; */
+  text-indent: 0;
+  /* float: left; */
 }
-.author-quote p {
-  display: inline-block;
-  text-align: left;
+.author-quote-text p {
+  text-indent: 0;
+  /* width: 70%; */
 }
-.author-quote button {
+.author-quote-text p:first-child {
+  font-size: 200%;
+}
+.author-quote-text p:last-child {
+  font-size: 100%;
+}
+article button {
   display: inline-block;
+  padding: 15px 35px;
+  font-size: 120%;
+  background-color: rgb(173, 86, 57);
+  color: white;
   float: right;
+  margin-top: 35px;
+} 
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-size: 80%;
+}
+footer p {
+  line-height: 130%;
+}
+footer p:first-of-type {
+  margin-top: 8px;
 }
