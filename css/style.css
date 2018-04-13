@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 body {
@@ -69,21 +69,37 @@ div.recipe-card {
   height: 300px;
 }
 
+.author-quote {
+  display:inline-block;
+}
 .author-quote img {
-  display: inline-block;
+  /* display: inline-block; */
   height: 100px;
   width: 100px;
   float: left;
+  margin-right: 10px;
 }
-.author-quote h2 {
+.author-quote-text {
   display: inline-block;
-  clear: left;
 }
-.author-quote p {
-  display: inline-block;
-  text-align: left;
+.author-quote-text p {
+  text-indent: none;
 }
-.author-quote button {
-  display: inline-block;
+.author-quote-text p:first-child {
+  font-size: 200%;
+}
+.author-quote-text p:last-child {
+  font-size: 100%;
+}
+article button {
+  /* display: inline-block; */
+  padding: 15px 35px;
+  font-size: 120%;
+  background-color: rgb(173, 86, 57);
+  color: white;
   float: right;
+} 
+
+footer {
+  text-align: center;
 }
