@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 /*
 logo font-family: 'Yellowtail', cursive;
@@ -13,6 +13,9 @@ body {
   margin-top: 30px;
 }
 
+header {
+  border-bottom: 10px solid #999;
+}
 .header-left {
   display: inline-block;
   margin-bottom: 30px;
@@ -95,20 +98,27 @@ div.recipe-card {
   height: 300px;
 }
 
+div#filler {
+  border-bottom: 10px solid #999;
+  margin-top: 50px; 
+}
 .author-quote {
+  margin-top: 30px;
   display:inline-block;
-  width: 70%
+  width: 70%;
+  /* border-top: 10px solid #444; */
 }
 .author-quote img {
   /* display: inline-block; */
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   float: left;
   margin-right: 10px;
 }
 .author-quote-text {
-  display: inline-block;
+  /* display: inline-block; */
   text-indent: 0;
+  /* float: left; */
 }
 .author-quote-text p {
   text-indent: 0;
@@ -121,14 +131,24 @@ div.recipe-card {
   font-size: 100%;
 }
 article button {
-  /* display: inline-block; */
+  display: inline-block;
   padding: 15px 35px;
   font-size: 120%;
   background-color: rgb(173, 86, 57);
   color: white;
   float: right;
+  margin-top: 35px;
 } 
 
 footer {
+  margin-top: 40px;
   text-align: center;
+  font-family: 'Arapey', serif;
+  font-size: 80%;
+}
+footer p {
+  line-height: 130%;
+}
+footer p:first-of-type {
+  margin-top: 8px;
 }
