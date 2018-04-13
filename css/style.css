@@ -1,20 +1,26 @@
 * {
   outline: 1px solid red;
 }
-
+/*
+logo font-family: 'Yellowtail', cursive;
+title font-family: 'Oswald', sans-serif;
+recipe font-family: 'Patrick Hand', cursive;
+*/
 body {
-  width: 960px;
+  width: 760px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .header-left {
   display: inline-block;
+  margin-bottom: 30px;
 }
 .header-left img {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 50px;
   float: left;
 }
 
@@ -24,14 +30,17 @@ body {
 
 .header-left-text p:first-child {
   font-size: 200%;
+  font-family: 'Yellowtail', cursive;
 }
 .header-left-text p:last-child {
   font-size: 100%;
+  font-family: 'Abel', sans-serif;
 }
 
 .header-right {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
+  margin-top: 20px;
 }
 .header-right ul {
   list-style: none;
@@ -41,26 +50,43 @@ body {
   display: inline;
 }
 
-.h2-left {
-  display: inline-block;
+.h3-left {
+  /* display: inline-block; */
   float: left;
+  margin-bottom: 35px;
 }
 
-.h2-right {
-  display: inline-block;
+.h3-right {
+  /* display: inline-block; */
   float: right;
+  margin-left: 8px;
 }
-.h2-right img {
-  height: 20px;
-  width: 20px;
+.h3-right img {
+  height: 12px;
+  width: 12px;
+  /* margin-right: 8px; */
 }
 
 article img {
   width: 100%;
 }
 
+article h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin-top: 70px;
+}
+article h3 {
+  font-family: 'Abel', sans-serif;
+  margin-top: 10px;
+}
 article p {
   text-indent: 2em;
+  font-family: 'Arapey', serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 110%;
+  line-height: 150%;
 }
 
 div.recipe-card {
@@ -71,6 +97,7 @@ div.recipe-card {
 
 .author-quote {
   display:inline-block;
+  width: 70%
 }
 .author-quote img {
   /* display: inline-block; */
@@ -81,9 +108,11 @@ div.recipe-card {
 }
 .author-quote-text {
   display: inline-block;
+  text-indent: 0;
 }
 .author-quote-text p {
-  text-indent: none;
+  text-indent: 0;
+  /* width: 70%; */
 }
 .author-quote-text p:first-child {
   font-size: 200%;
