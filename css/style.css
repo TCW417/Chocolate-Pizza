@@ -1,0 +1,35 @@
+* {
+  border: 1px solid red;
+}
+
+.header-left {
+  display: inline-block;
+}
+.header-left img {
+  display: inline-block;
+  height: 100px;
+  float: left;
+}
+
+.header-left-text {
+  display: inline-block;
+}
+
+.header-left-text p:first-child {
+  font-size: 200%;
+}
+.header-left-text p:last-child {
+  font-size: 100%;
+}
+
+.header-right {
+  display: inline-block;
+  float: right;
+}
+.header-right ul {
+  list-style: none;
+  display: inline-block;
+}
+.header-right li {
+  display: inline;
+}
