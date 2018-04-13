@@ -2,12 +2,19 @@
   border: 1px solid red;
 }
 
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-left {
   display: inline-block;
 }
 .header-left img {
   display: inline-block;
   height: 100px;
+  width: 100px;
   float: left;
 }
 
@@ -32,4 +39,45 @@
 }
 .header-right li {
   display: inline;
+}
+
+.h2-left {
+  display: inline-block;
+  float: left;
+}
+
+.h2-right {
+  display: inline-block;
+  float: right;
+}
+.h2-right img {
+  height: 20px;
+  width: 20px;
+}
+
+article img {
+  width: 100%;
+}
+
+article p {
+  text-indent: 2em;
+}
+
+.author-quote img {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+.author-quote h2 {
+  display: inline-block;
+  clear: left;
+}
+.author-quote p {
+  display: inline-block;
+  text-align: left;
+}
+.author-quote button {
+  display: inline-block;
+  float: right;
 }
