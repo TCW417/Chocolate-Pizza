@@ -96,6 +96,8 @@ div.recipe-card {
   background-image: url("../img/list-bg.png");
   width: 100%;
   height: 300px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 110%;
 }
 form {
   padding-top: 35px;
@@ -103,11 +105,14 @@ form {
   padding-left: 50px;
 }
 td {
-  padding-top: 10px;
-  padding-bottom: 10px;;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 table {
   border-collapse: collapse;
+  table-layout: fixed;
+  width: 90%;
+  column-width: 50%;
 }
 
 div#filler {
